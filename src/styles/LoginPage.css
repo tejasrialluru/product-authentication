@@ -1,0 +1,80 @@
+/* LoginPage.css */
+
+.login-register-page {
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+}
+
+.logo {
+  width: 350px; /* Ensure the logo does not exceed its container width */
+  height: 50px; 
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 50px auto; /* Center the form and add space from top */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background-color: #dfe7fe;
+}
+
+.login-form h2 {
+  color:#14097f;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus {
+  border-color: #007bff; /* Change border color when focused */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow when focused */
+}
+.login-form input{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  color:#14097f;
+  font-weight: 50;
+}
+
+.login-form button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  background-color: #14097f;
+}
+
+.user-type {
+  text-align: center;
+  display: inline;
+}
+
+.user-type label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color:#14097f;
+}
+
+.user-type input {
+  margin-right: 10px;
+}
+
+.login-form p {
+  font-size: 0.9em;
+}
+
+.login-form a {
+  text-decoration: none;
+  color: #14097f;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}
+
